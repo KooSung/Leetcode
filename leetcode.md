@@ -148,3 +148,14 @@ class Solution:
 - 首先删除字符串左边所有空格，生成新的字符串
 - 判断新字符串是否为空，为空返回0
 - 判断字符串首位是否为数字或者“+”或者“-”，是的话有效，不是的话返回0
+
+
+
+##### 9.回文数
+
+```python
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        return str(x) == str(x)[::-1]
+```
+
